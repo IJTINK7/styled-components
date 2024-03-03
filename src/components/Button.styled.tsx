@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {Animations} from "../styles/animation/Animations";
 
 export const StyledButton = styled.button`
   border: none;
@@ -19,4 +20,5 @@ export const StyledButton = styled.button`
 export const SuperButton = styled(StyledButton)`
   border-radius: 5px;
   background-color: #ff2525;
+  animation: ${Animations} 2s ease-in-out;
 `

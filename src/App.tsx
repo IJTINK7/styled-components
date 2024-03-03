@@ -14,12 +14,10 @@ function App() {
 					<li><a href="#">menu item 3</a></li>
 				</ul>
 			</Menu>
-			{/* eslint-disable-next-line react/jsx-no-undef */}
 			<Box>
 				<StyledButton as='a' href={"#"}>Link</StyledButton>
 				<StyledButton as={Link} href={"#"}>LinkComponent</StyledButton>
 				<StyledButton>Hello</StyledButton>
-				{/* eslint-disable-next-line react/jsx-no-undef */}
 				<SuperButton>SuperButton</SuperButton>
 			</Box>
 		</div>
