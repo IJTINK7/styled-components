@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
-export const StyledButton = styled.button`
+export type StyledButtonPropsType = {
+	color?: string
+	fontSize?: string
+}
+
+export const StyledButton = styled.button<StyledButtonPropsType>`
   border: none;
   background-color: #3459ff;
   padding: 10px 20px;
-  color: ${props => props.color};
-  font-size: 2rem;
+  color: ${props => props.color || '#defc1d'};
+  font-size: ${props => props.fontSize || "40px"};
   font-weight: bold;
 
   &:hover {

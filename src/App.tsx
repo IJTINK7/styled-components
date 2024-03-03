@@ -8,6 +8,8 @@ function App() {
 		<div className="App">
 			<Box>
 				<StyledButton color={"red"}>Hello</StyledButton>
+				<StyledButton color={"green"}>Hello</StyledButton>
+				<StyledButton fontSize={"20px"}>Hello</StyledButton>
 			</Box>
 		</div>
 	);
