@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {theme} from "../styles/Theme.styled";
 
 export const Link = styled.a`
   color: #0cb40c;
@@ -20,5 +21,11 @@ export const Box = styled.div`
 
   ${Link} {
     cursor: zoom-in;
+  }
+  @media ${theme.media.tablet}{
+      flex-direction: column;
+  }
+  @media ${theme.media.mobile}{
+    background-color: ${theme.colors.gray.light}
   }
 `
