@@ -20,5 +20,7 @@ export const StyledButton = styled.button`
 export const SuperButton = styled(StyledButton)`
   border-radius: 5px;
   background-color: #ff2525;
-  animation: ${Animations} 2s ease-in-out;
+  &:hover{
+    animation: ${Animations} 2s ease-in-out;
+  }
 `
