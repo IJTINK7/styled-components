@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import {Animations} from "../styles/animation/Animations";
 
 export const StyledButton = styled.button`
   border: none;
@@ -12,15 +11,14 @@ export const StyledButton = styled.button`
   &:hover {
     background-color: #d5c31e;
   }
+`
 
-  &:last-child {
-    background-color: #44a928;
-  }
-`
-export const SuperButton = styled(StyledButton)`
-  border-radius: 5px;
-  background-color: #ff2525;
-  &:hover{
-    animation: ${Animations} 2s ease-in-out;
-  }
-`
+
+// 1) SC Основы
+// export const SuperButton = styled(StyledButton)`
+//   border-radius: 5px;
+//   background-color: #ff2525;
+//   &:hover{
+//     animation: ${Animations} 2s ease-in-out;
+//   }
+// `
