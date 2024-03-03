@@ -7,9 +7,11 @@ function App() {
 	return (
 		<div className="App">
 			<Box>
-				<StyledButton color={"red"}>Hello</StyledButton>
-				<StyledButton color={"green"}>Hello</StyledButton>
-				<StyledButton fontSize={"20px"}>Hello</StyledButton>
+				{/*<StyledButton color={"red"} primary>Hello</StyledButton>*/}
+				{/*<StyledButton color={"green"} outlined>Hello</StyledButton>*/}
+				<StyledButton color={"green"} buttonType={"primary"}>Hello</StyledButton>
+				<StyledButton color={"green"} buttonType={"outlined"}>Hello</StyledButton>
+				<StyledButton fontSize={"20px"} buttonType={"primary"}>Hello</StyledButton>
 			</Box>
 		</div>
 	);
