@@ -7,7 +7,7 @@ function App() {
 	return (
 		<div className="App">
 			<Box>
-				<StyledButton>Hello</StyledButton>
+				<StyledButton color={"red"}>Hello</StyledButton>
 			</Box>
 		</div>
 	);

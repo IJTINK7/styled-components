@@ -4,7 +4,7 @@ export const StyledButton = styled.button`
   border: none;
   background-color: #3459ff;
   padding: 10px 20px;
-  color: snow;
+  color: ${props => props.color};
   font-size: 2rem;
   font-weight: bold;
 
