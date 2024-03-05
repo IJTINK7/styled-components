@@ -1,19 +1,18 @@
 import React from 'react';
 import './App.css';
-import {StyledButton} from "./components/Button.styled";
-import {Box} from "./components/Link.styled";
-import {theme} from "./styles/Theme.styled";
+import {TestTaskDesertLayout} from "./components/TestTaskDesertLayout";
 
 function App() {
 	return (
 		<div className="App">
-			<Box>
-				{/*<StyledButton color={"red"} primary>Hello</StyledButton>*/}
-				{/*<StyledButton color={"green"} outlined>Hello</StyledButton>*/}
-				<StyledButton color={"green"} buttonType={"primary"}>Hello</StyledButton>
-				<StyledButton color={theme.colors.secondary} buttonType={"outlined"}>Hello</StyledButton>
-				<StyledButton color={theme.colors.primary} fontSize={"20px"} buttonType={"primary"}>Hello</StyledButton>
-			</Box>
+			{/*<Box>*/}
+			{/*	/!*<StyledButton color={"red"} primary>Hello</StyledButton>*!/*/}
+			{/*	/!*<StyledButton color={"green"} outlined>Hello</StyledButton>*!/*/}
+			{/*	<StyledButton color={"green"} buttonType={"primary"}>Hello</StyledButton>*/}
+			{/*	<StyledButton color={theme.colors.secondary} buttonType={"outlined"}>Hello</StyledButton>*/}
+			{/*	<StyledButton color={theme.colors.primary} fontSize={"20px"} buttonType={"primary"}>Hello</StyledButton>*/}
+			{/*</Box>*/}
+			<TestTaskDesertLayout/>
 		</div>
 	);
 }
